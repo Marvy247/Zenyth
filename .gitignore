@@ -1,0 +1,13 @@
+node_modules/
+.env
+*.log
+cache/
+artifacts/
+zenythMemory.json
+ml_models/saved_model/
+smart_contracts/cache/
+smart_contracts/artifacts/
+smart_contracts/node_modules/
+.DS_Store
+coverage/
+.hardhat/
