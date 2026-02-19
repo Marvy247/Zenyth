@@ -25,7 +25,14 @@ export function YieldChart() {
           <YAxis stroke="#9ca3af" />
           <Tooltip 
             formatter={(value) => `${Number(value).toFixed(2)}%`}
-            contentStyle={{ backgroundColor: '#1f2937', border: 'none', borderRadius: '8px', color: '#fff' }}
+            contentStyle={{ 
+              backgroundColor: '#ffffff', 
+              border: '1px solid #e5e7eb', 
+              borderRadius: '8px', 
+              color: '#111827' 
+            }}
+            labelStyle={{ color: '#111827', fontWeight: 'bold' }}
+            itemStyle={{ color: '#111827' }}
           />
           <Bar dataKey="apy" radius={[8, 8, 0, 0]} />
         </BarChart>
